@@ -1,14 +1,12 @@
-import leet_code_problem.daily.Problem220204;
+import leet_code_problem.daily.Problem525ContiguousArray;
 
 public class main {
 
     public static void main(String[] args) {
-        int [] nums1 = {1,2};
-        int [] nums2 = {-2,-1};
-        int [] nums3 = {-1,2};
-        int [] nums4 = {0,2};
+        int[] nums = {0,0,1,0,0,0,1,1};
 
-        Problem220204 problem220204 = new Problem220204();
-        System.out.println(problem220204.fourSumCount(nums1,nums2, nums3, nums4));
+        Problem525ContiguousArray problem525ContiguousArray = new Problem525ContiguousArray();
+        System.out.println(problem525ContiguousArray.findMaxLength(nums));
+
     }
 }

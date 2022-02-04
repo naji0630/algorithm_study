@@ -2,7 +2,7 @@ package leet_code_problem.daily;
 
 import java.util.HashMap;
 
-public class Problem220204 {
+public class Problem454FourSumTwo {
 
     public int fourSumCount(int[] nums1, int[] nums2, int[] nums3, int[] nums4) {
 
