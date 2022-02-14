@@ -1,13 +1,13 @@
-import leet_code_problem.daily.Problem1877MinimizeMaximumPairSumInArray;
+import leet_code_problem.daily.Problem567PermutationInString;
 
 public class main {
 
     public static void main(String[] args) {
 
-        Problem1877MinimizeMaximumPairSumInArray problem1877MinimizeMaximumPairSumInArray = new Problem1877MinimizeMaximumPairSumInArray();
-        int[] nums = {3,5,2,3};
+        String s1 ="hello";
+        String s2 ="ooolleoooleh";
 
-        System.out.println(problem1877MinimizeMaximumPairSumInArray.minPairSum(nums));
-
+        Problem567PermutationInString problem567PermutationInString = new Problem567PermutationInString();
+        System.out.println(problem567PermutationInString.checkInclusion(s1, s2));
     }
 }
